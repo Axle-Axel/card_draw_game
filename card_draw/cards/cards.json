@@ -1,0 +1,73 @@
+{
+    "holidays": {
+        "summer break": [
+            "Go to the beach",
+            "Have a picnic in the park",
+            "Visit a water park"
+        ],
+        "fall break": [
+            "Go apple picking",
+            "Carve a pumpkin",
+            "Take a nature hike to see fall colors"
+        ],
+        "spring break": [
+            "Plant a garden",
+            "Fly a kite",
+            "Go on a bike ride"
+        ],
+        "winter break": [
+            "Build a snowman",
+            "Go ice skating",
+            "Have a hot chocolate party"
+        ]
+    },
+    "class": {
+        "science": [
+            "Conduct a simple experiment",
+            "Identify 5 constellations",
+            "Explain the water cycle"
+        ],
+        "geography": [
+            "Name 5 capital cities",
+            "Draw a map of your country",
+            "Locate the Amazon Rainforest on a map"
+        ],
+        "math": [
+            "Solve a math riddle",
+            "Calculate the tip on a $45 bill",
+            "Explain the Pythagorean theorem"
+        ],
+        "language": [
+            "Write a haiku",
+            "Translate a simple sentence to another language",
+            "Use alliteration in a sentence"
+        ],
+        "history": [
+            "Name three ancient civilizations",
+            "Describe a significant historical event",
+            "Identify a famous historical figure"
+        ],
+        "physical education": [
+            "Do 10 jumping jacks",
+            "Demonstrate a yoga pose",
+            "Explain the rules of basketball"
+        ]
+    },
+    "surprise": {
+        "chance": [
+            "Everyone switches seats",
+            "Choose the next player",
+            "Skip your next turn"
+        ],
+        "after school activities": [
+            "Describe your favorite hobby",
+            "Teach others a skill you've learned",
+            "Plan a fun after-school event"
+        ],
+        "breaks": [
+            "Take a 5-minute dance break",
+            "Share a funny story",
+            "Do a quick stretching routine"
+        ]
+    }
+}
