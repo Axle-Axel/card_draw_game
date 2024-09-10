@@ -12,9 +12,10 @@ from PIL import Image, ImageTk
 # todo: add remaining icons
 
 main_dir = Path(__file__).parent
-cards_dir = main_dir / 'cards'
-icons_dir = main_dir / 'icons'
+cards_dir = main_dir / "cards"
+icons_dir = main_dir / "icons"
 banner_dir = main_dir
+
 
 class CardDrawingApp:
     def __init__(self, master):
@@ -127,7 +128,11 @@ class CardDrawingApp:
         self.result_text.insert(tk.END, f"No cards available in {card_type} deck.")
 
 
-if __name__ == "__main__":
+def main():
     root = tk.Tk()
     app = CardDrawingApp(root)
     root.mainloop()
+
+
+if __name__ == "__main__":
+    main()

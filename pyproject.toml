@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "party game card draw"
+name = "card_draw"
 version = "0.1.0"
 description = ""
 authors = ["Axel Widenfelt <axel.widenfelt@esa.int>"]
@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 pillow = "^10.4.0"
 
+[tool.poetry.scripts]
+play = "card_draw.card_draw:main"
 
 [build-system]
 requires = ["poetry-core"]
