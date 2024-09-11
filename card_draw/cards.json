@@ -1,73 +1,76 @@
 {
     "holidays": {
         "summer break": [
-            "Go to the beach",
-            "Have a picnic in the park",
-            "Visit a water park"
+            "You went to Thailand with your family and everyone is jealous. Give out 3 sips.",
+            "You stayed home all summer playing video games and not getting any sun. Take 2 sips against the sadness."
         ],
         "fall break": [
-            "Go apple picking",
-            "Carve a pumpkin",
-            "Take a nature hike to see fall colors"
+            "You caught a cold and had to stay home. Lame. Take a shot (of cold medicine).",
+            "You carved an awesome pumpkin. Your neighbors are jealous and have to take 1 sip each.",
+            "Take a nature hike to see fall colors."
         ],
         "spring break": [
-            "Plant a garden",
-            "Fly a kite",
-            "Go on a bike ride"
+            "You went to Tijuana to party and were the king/queen of the beach. Everyone else takes 1 sip and bows in respect.",
+            "You went to Tijuana to party and got alcohol poisoning. Give away your drink to someone else, you should chill."
         ],
         "winter break": [
-            "Build a snowman",
-            "Go ice skating",
-            "Have a hot chocolate party"
+            "You built an impressive snowman. Your neighbors are jealous and have to take 1 sip each.",
+            "You broke your leg skiing. Take a shot and skip the next turn.",
+            "You caught the winter stomach flu. Ugh. Skip the next turn and then take a shot (once you can keep it down)."
         ]
     },
     "class": {
         "science": [
-            "Conduct a simple experiment",
-            "Identify 5 constellations",
-            "Explain the water cycle"
+            "What is the powerhouse of the cell?",
+            "What is the chemical composition of original salt?",
+            "Which theory did Einstein come up with first: general or special relativity?"
         ],
         "geography": [
-            "Name 5 capital cities",
-            "Draw a map of your country",
-            "Locate the Amazon Rainforest on a map"
+            "Name 3 capital cities outside Europe.",
+            "Which of these is not a continent: Australia, Antarctica, Europe, Greenland?"
         ],
         "math": [
-            "Solve a math riddle",
-            "Calculate the tip on a $45 bill",
-            "Explain the Pythagorean theorem"
+            "What is the square root of 81?",
+            "Which of these is not a prime number? 11, 17, 21, 29.",
+            "Name three programming languages."
         ],
         "language": [
-            "Write a haiku",
-            "Translate a simple sentence to another language",
-            "Use alliteration in a sentence"
+            "Say 'Hi' in three different languages.",
+            "Who was the first female author to win the Nobel Prize in literature?",
+            "Use alliteration in a sentence."
         ],
         "history": [
-            "Name three ancient civilizations",
-            "Describe a significant historical event",
-            "Identify a famous historical figure"
+            "Name three ancient civilizations.",
+            "What year did World War I end?",
+            "Which ancient civilization is the oldest: Egyptians, Sumerians, Romans?",
+            "Name a famous Dutch historical figure."
         ],
         "physical education": [
-            "Do 10 jumping jacks",
-            "Demonstrate a yoga pose",
-            "Explain the rules of basketball"
+            "Do 10 jumping jacks.",
+            "Demonstrate a yoga pose.",
+            "What is supercompensation?"
         ]
     },
     "surprise": {
         "chance": [
-            "Everyone switches seats",
-            "Choose the next player",
-            "Skip your next turn"
+            "Your dog ate your homework! Go backward to the closest class and retake it right away.",
+            "You failed your latest exams. Drink away your sorrows with a shot.",
+            "You are such an A-student that you get to skip ahead to the next year! Go directly to Summer Break.",
+            "You found answers to the next pop quiz in class! Skip your next class and move again.",
+            "You got expelled! Now you have to find a new school to join. Skip your next turn."
         ],
         "after school activities": [
-            "Describe your favorite hobby",
-            "Teach others a skill you've learned",
-            "Plan a fun after-school event"
+            "You joined the chess club, you nerd. Challenge another player to rock-paper-scissors and the loser drinks.",
+            "You joined a choir. Sing the chorus of some song. Every player who joins in gets to give out a drink (including yourself).",
+            "You hosted a party when your parents were away, and the guests drank all of their expensive whiskey. You are grounded, skip the next turn.",
+            "You joined the cornhole tossing team! Weird but your choice I guess. Show off your skills by throwing a ball into another player's glass."
         ],
         "breaks": [
-            "Take a 5-minute dance break",
-            "Share a funny story",
-            "Do a quick stretching routine"
+            "Someone stole your lunch money! The player across from you gets to take a sip of your drink.",
+            "You fell from a tree in the schoolyard and broke your arm! You may only drink with your non-dominant hand for the rest of the game (1 drink penalty otherwise).",
+            "You steal someone else's lunch money! Take a sip of their drink, you bully.",
+            "You sneak to the convenience store instead of eating the gross canteen lunch. Eat some snacks.",
+            "You got caught smoking behind the schoolhouse! You get put in detention and have to take a shot."
         ]
     }
 }

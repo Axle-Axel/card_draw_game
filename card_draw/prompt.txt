@@ -1,0 +1,15 @@
+i am making a party game board game. this game will involve a step where you draw cards from different decks. help me come up with card contents. The theme of the game is "back to school" and it will be a drinking game. 
+
+The text of the cards should be in this JSON format, where the card is represented by a string of the card text in the appropriate part of the structure. The structure below is prepopulated with some example cards.
+
+holiday cards are things you did during the holiday. it should be a short humorous text with a good or a bad outcome, and some number of sips being allocated to yourself or others as suitable.
+
+class cards are quick, short knowledge questions that the player will try to answer quickly (under about 10 seconds), so make them brief and quite simple. they should only consist of the question, or in the case of Physical Education it can be either some simple physical challenge or a simple fitness knowledge question. The question should be on theme with the class topic.
+
+chance cards are something completely random and unexpected that happens in life. They should have effects that are not just sips, but that affect gameplay
+
+after school activities are things you do outside of school. they should involve something active, preferably with other players, and sometimes involve drinks.
+
+Break cards are for breaks between class. This should be schoolyard event, and either involve taking a drink or some other silly thing like only drinking with your non-dominant hand or eating some snacks.
+
+Assist me in drafting 10 new cards for each category of holiday
