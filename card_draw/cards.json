@@ -1,54 +1,136 @@
 {
     "holidays": {
+        "winter break": [
+            "You built an impressive snowman. Your neighbors are jealous and have to take 1 sip each.",
+            "You broke your leg skiing. Take a shot and skip the next turn.",
+            "You caught the winter stomach flu. Ugh. Skip the next turn and then take a shot (once you can keep it down).",
+            "You went ice skating and fell. Take 2 sips to ease the pain.",
+            "You had a snowball fight. Give out 1 sip to everyone else who you pelt with snowballs.",
+            "You drank hot cocoa by the fire. Everyone else takes 1 sip for not being cozy.",
+            "You went skiing and nailed a jump. Give out 2 sips to the people who love skiing.",
+            "You got stuck in a snowstorm. Take 3 sips to warm up.",
+            "You built a gingerbread house. Give out 2 sips to the people who love baking.",
+            "You went sledding and had a blast. Everyone else takes 1 sip for not joining.",
+            "You had a holiday movie marathon. Take 2 sips for each movie you watched.",
+            "You made a snow angel. Give out 2 sips to the people who love snow.",
+            "You got a cold from being outside too long. Take 3 sips to feel better."
+        ],
         "summer break": [
             "You went to Thailand with your family and everyone is jealous. Give out 3 sips.",
-            "You stayed home all summer playing video games and not getting any sun. Take 2 sips against the sadness."
+            "You stayed home all summer playing video games and not getting any sun. Take 2 sips against the sadness.",
+            "You went to a music festival and danced all night. Give out 2 sips to the best dancers.",
+            "You got sunburned at the beach. Take 3 sips to cool down.",
+            "You learned to surf. Everyone else takes 1 sip for not being as cool.",
+            "You got lost on a hiking trip. Take 2 sips to find your way back.",
+            "You had a BBQ party. Give out 3 sips to the best grill masters.",
+            "You went camping and got scared by a bear. Take 2 sips to calm your nerves.",
+            "You took a road trip with friends. Everyone else takes 1 sip for not being invited."
+        ],
+        "spring break": [
+            "You went to Tijuana to party and were the king/queen of the beach. Everyone else takes 1 sip and bows in respect.",
+            "You went to Tijuana to party and got alcohol poisoning. Give away your drink to someone else, you should chill.",
+            "You went on a tropical vacation. Everyone else takes 1 sip for not being as lucky.",
+            "You had a wild beach party. Give out 3 sips to the best party animals.",
+            "You got a sunburn. Take 2 sips to cool down.",
+            "You got food poisoning from street food. Take 3 sips to recover.",
+            "You went on a spring cleaning spree. Everyone else takes 1 sip for not helping.",
+            "You attended a music festival. Give out 2 sips to the best dancers.",
+            "You went hiking and found a hidden waterfall. Everyone else takes 1 sip for not being adventurous.",
+            "You got caught in a sudden rainstorm. Take 3 sips to dry off."
         ],
         "fall break": [
             "You caught a cold and had to stay home. Lame. Take a shot (of cold medicine).",
             "You carved an awesome pumpkin. Your neighbors are jealous and have to take 1 sip each.",
-            "Take a nature hike to see fall colors."
-        ],
-        "spring break": [
-            "You went to Tijuana to party and were the king/queen of the beach. Everyone else takes 1 sip and bows in respect.",
-            "You went to Tijuana to party and got alcohol poisoning. Give away your drink to someone else, you should chill."
-        ],
-        "winter break": [
-            "You built an impressive snowman. Your neighbors are jealous and have to take 1 sip each.",
-            "You broke your leg skiing. Take a shot and skip the next turn.",
-            "You caught the winter stomach flu. Ugh. Skip the next turn and then take a shot (once you can keep it down)."
+            "Take a nature hike to see fall colors.",
+            "You went apple picking. Give out 2 sips to the people who love apples.",
+            "You got lost in a corn maze. Take 3 sips to find your way out.",
+            "You attended a Halloween party in an amazing costume. Everyone else takes 1 sip for not dressing up.",
+            "You raked leaves and jumped into the pile. Give out 2 sips to the people who love fall.",
+            "You went on a spooky ghost tour. Take 2 sips to calm your nerves.",
+            "You baked a pumpkin pie. Give out 3 sips to the people who love pie.",
+            "You went to a football game. Everyone else takes 1 sip for not being a fan.",
+            "You had a cozy movie night. Take 2 sips for each movie you watched.",
+            "You went on a scenic drive to see the fall colors. Give out 2 sips to the people who love nature.",
+            "You got caught in a rainstorm without an umbrella. Take 3 sips to dry off."
         ]
     },
     "class": {
+        "physical education": [
+            "Do 10 jumping jacks, then take 1 sip to rehydrate.",
+            "Demonstrate a yoga pose.",
+            "What is supercompensation?",
+            "What is the main muscle used in a bench press?",
+            "Touch your toes and hold for 10 seconds",
+            "Name a sport that uses a racket"
+        ],
         "science": [
             "What is the powerhouse of the cell?",
             "What is the chemical composition of original salt?",
-            "Which theory did Einstein come up with first: general or special relativity?"
-        ],
-        "geography": [
-            "Name 3 capital cities outside Europe.",
-            "Which of these is not a continent: Australia, Antarctica, Europe, Greenland?"
-        ],
-        "math": [
-            "What is the square root of 81?",
-            "Which of these is not a prime number? 11, 17, 21, 29.",
-            "Name three programming languages."
+            "Which theory did Einstein come up with first: general or special relativity?",
+            "What is the boiling point of water in Celsius?",
+            "What planet is known as the Red Planet?",
+            "What gas do plants absorb from the atmosphere?",
+            "What is the chemical symbol for gold?",
+            "What is the hardest natural substance on Earth?",
+            "What is the main gas found in the air we breathe?",
+            "What is the process by which plants make their food?",
+            "What is the largest organ in the human body?",
+            "What is the center of an atom called?",
+            "What is the most abundant element in the universe?"
         ],
         "language": [
             "Say 'Hi' in three different languages.",
             "Who was the first female author to win the Nobel Prize in literature?",
-            "Use alliteration in a sentence."
+            "Use alliteration in a sentence.",
+            "Translate 'Good morning' to Spanish.",
+            "What is the plural of 'mouse'?",
+            "What is the past tense of 'run'?",
+            "What is a synonym for 'happy'?",
+            "What is the antonym of 'hot'?",
+            "What is the longest word in the English language?",
+            "What is the meaning of the word 'ubiquitous'?",
+            "What is the root word of 'unhappiness'?",
+            "What is the opposite of 'increase'?",
+            "What is the meaning of the word 'serendipity'?"
+        ],
+        "math": [
+            "What is the square root of 81?",
+            "Which of these is not a prime number? 11, 17, 21, 29.",
+            "Name three programming languages.",
+            "What is 7 times 8?",
+            "What is the next prime number after 7?",
+            "What is 12 squared?",
+            "What is the sum of the angles in a triangle?",
+            "What is the formula for the area of a circle?",
+            "What is the square root of 64?",
+            "What is 15% of 200?",
+            "What is the perimeter of a rectangle with sides 5 and 10?"
+        ],
+        "geography": [
+            "Name 3 capital cities outside Europe.",
+            "Which of these is not a continent: Australia, Antarctica, Europe, Greenland?",
+            "What is the capital of Japan?",
+            "Which country is the largest by area?",
+            "What is the longest river in the world?",
+            "What is the smallest country in the world?",
+            "What is the capital of Australia?",
+            "Which continent is the Sahara Desert located on?",
+            "What is the highest mountain in the world?",
+            "What ocean is on the west coast of the United States?",
+            "What is the capital of Canada?",
+            "Which country has the most population?"
         ],
         "history": [
             "Name three ancient civilizations.",
             "What year did World War I end?",
             "Which ancient civilization is the oldest: Egyptians, Sumerians, Romans?",
-            "Name a famous Dutch historical figure."
-        ],
-        "physical education": [
-            "Do 10 jumping jacks.",
-            "Demonstrate a yoga pose.",
-            "What is supercompensation?"
+            "Name a famous Dutch historical figure.",
+            "Who was the first President of the United States?",
+            "In which year did the Titanic sink?",
+            "What year did the first person walk on the moon?",
+            "In which year did World War II end?",
+            "Who was the first female Prime Minister of the UK?",
+            "What was the name of the ancient trade route that connected the East and West?"
         ]
     },
     "surprise": {
@@ -57,20 +139,39 @@
             "You failed your latest exams. Drink away your sorrows with a shot.",
             "You are such an A-student that you get to skip ahead to the next year! Go directly to Summer Break.",
             "You found answers to the next pop quiz in class! Skip your next class and move again.",
-            "You got expelled! Now you have to find a new school to join. Skip your next turn."
-        ],
-        "after school activities": [
-            "You joined the chess club, you nerd. Challenge another player to rock-paper-scissors and the loser drinks.",
-            "You joined a choir. Sing the chorus of some song. Every player who joins in gets to give out a drink (including yourself).",
-            "You hosted a party when your parents were away, and the guests drank all of their expensive whiskey. You are grounded, skip the next turn.",
-            "You joined the cornhole tossing team! Weird but your choice I guess. Show off your skills by throwing a ball into another player's glass."
+            "You got expelled! Now you have to find a new school to join. Skip your next turn and take a shot.",
+            "You found a hidden stash of snacks! Share them with everyone and skip your next drink",
+            "You won a school raffle! Move forward 3 spaces",
+            "You got caught passing notes in class. Move back 2 spaces",
+            "You got detention for being late. Skip your next turn",
+            "You aced a surprise test! Give out 2 sips",
+            "You got a surprise visit from your parents. Everyone takes a drink in your honor",
+            "You found a lost puppy on the way to school. Everyone helps you look for its owner, take a group drink",
+            "You got a scholarship! Move forward 2 spaces and give out 1 sip"
         ],
         "breaks": [
             "Someone stole your lunch money! The player across from you gets to take a sip of your drink.",
             "You fell from a tree in the schoolyard and broke your arm! You may only drink with your non-dominant hand for the rest of the game (1 drink penalty otherwise).",
             "You steal someone else's lunch money! Take a sip of their drink, you bully.",
             "You sneak to the convenience store instead of eating the gross canteen lunch. Eat some snacks.",
-            "You got caught smoking behind the schoolhouse! You get put in detention and have to take a shot."
+            "You got caught smoking behind the schoolhouse! You get put in detention: skip your next turn and take 2 sips.",
+            "You found a hidden stash of candy! Share it with everyone and take a sip",
+            "You played a prank on a teacher. Everyone laughs and takes a sip",
+            "You found a secret hideout. Take a break and skip your next turn",
+            "You traded snacks with a friend. Swap drinks with another player for one turn",
+            "You played hopscotch. Hop on one foot for 10 seconds or take a sip",
+            "You got caught chewing gum in class. Spit it out and take a sip",
+            "You played tag. Tag another player and they take a sip"
+        ],
+        "after school activities": [
+            "You joined the chess club, you nerd. Challenge another player to rock-paper-scissors and the loser drinks.",
+            "You joined a choir. Sing the chorus of some song. Every player who joins in gets to give out a drink (including yourself).",
+            "You hosted a party when your parents were away, and the guests drank all of their expensive whiskey. You are grounded, skip the next turn.",
+            "You joined the cornhole tossing team! Weird but your choice I guess. Show off your skills by throwing a ball into another player's glass.",
+            "You joined the basketball team. Shoot a paper ball into a trash can. If you miss, take a drink",
+            "You joined the track team. Race another player to the nearest door and back. Loser takes a drink",
+            "You joined the photography club. Take a funny selfie with another player and you both take 1 sip.",
+            "You joined the music club. Hum a tune and have others guess it. The first correct guesser gives out 1 sip"
         ]
     }
 }

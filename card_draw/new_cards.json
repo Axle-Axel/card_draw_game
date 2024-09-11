@@ -1,0 +1,54 @@
+{
+    "class": {
+        "physical education": [
+            "Do 15 squats",
+            "Hold a plank for 30 seconds",
+            "What is the main muscle used in a push-up?",
+            "Run in place for 20 seconds",
+            "Name one benefit of regular exercise",
+            "Do 5 burpees",
+            "Touch your toes and hold for 10 seconds",
+            "What is the recommended amount of daily physical activity for adults?",
+            "Do 10 high knees",
+            "Name a sport that uses a racket"
+        ]
+    },
+    "surprise": {
+        "chance": [
+            "You found a hidden stash of snacks! Share them with everyone and skip your next drink",
+            "You got a surprise pop quiz! Answer a random class question correctly to avoid taking a drink",
+            "You won a school raffle! Move forward 3 spaces",
+            "You got caught passing notes in class. Move back 2 spaces",
+            "You found a secret passage in the school. Move to any space you want",
+            "You got detention for being late. Skip your next turn",
+            "You aced a surprise test! Give out 2 sips",
+            "You got a surprise visit from your parents. Everyone takes a drink in your honor",
+            "You found a lost puppy on the way to school. Everyone helps you look for its owner, take a group drink",
+            "You got a scholarship! Move forward 2 spaces and give out 1 sip"
+        ],
+        "after school activities": [
+            "You joined the drama club. Act out a scene from a movie. The best performance gives out 2 sips",
+            "You joined the basketball team. Shoot a paper ball into a trash can. If you miss, take a drink",
+            "You joined the debate team. Debate a topic with another player for 30 seconds. Loser takes a drink",
+            "You joined the art club. Draw something in 30 seconds. The best drawing gives out 1 sip",
+            "You joined the track team. Race another player to the nearest door and back. Loser takes a drink",
+            "You joined the cooking club. Describe your favorite dish. The best description gives out 1 sip",
+            "You joined the photography club. Take a funny selfie with another player. The funniest selfie gives out 2 sips",
+            "You joined the robotics club. Build a tower with any items around you. The tallest tower gives out 1 sip",
+            "You joined the gardening club. Describe your favorite plant. The best description gives out 1 sip",
+            "You joined the music club. Hum a tune and have others guess it. The first correct guesser gives out 1 sip"
+        ],
+        "breaks": [
+            "You found a hidden stash of candy! Share it with everyone and take a sip",
+            "You got into a water balloon fight! The wettest player takes 2 sips",
+            "You played a prank on a teacher. Everyone laughs and takes a sip",
+            "You found a secret hideout. Take a break and skip your next turn",
+            "You traded snacks with a friend. Swap drinks with another player for one turn",
+            "You played hopscotch. Hop on one foot for 10 seconds or take a sip",
+            "You got caught chewing gum in class. Spit it out and take a sip",
+            "You played tag. Tag another player and they take a sip",
+            "You found a cool rock. Show it to everyone and take a sip",
+            "You played hide and seek. The first player found takes 2 sips"
+        ]
+    }
+}

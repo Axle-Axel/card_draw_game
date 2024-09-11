@@ -4,7 +4,7 @@ The text of the cards should be in this JSON format, where the card is represent
 
 holiday cards are things you did during the holiday. it should be a short humorous text with a good or a bad outcome, and some number of sips being allocated to yourself or others as suitable.
 
-class cards are quick, short knowledge questions that the player will try to answer quickly (under about 10 seconds), so make them brief and quite simple. they should only consist of the question, or in the case of Physical Education it can be either some simple physical challenge or a simple fitness knowledge question. The question should be on theme with the class topic.
+class cards are quick, short knowledge questions that the player will try to answer quickly (under about 10 seconds), so make them brief and quite simple. they should only consist of the question, or in the case of Physical Education it can be either some simple physical challenge or a simple fitness knowledge question. The question should be on theme with the class topic. note that questions in the math topic can also be about programming or computer science.
 
 chance cards are something completely random and unexpected that happens in life. They should have effects that are not just sips, but that affect gameplay
 
