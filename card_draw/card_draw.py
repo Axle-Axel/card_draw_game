@@ -1,15 +1,10 @@
 import json
-import os
 import random
 import tkinter as tk
 from pathlib import Path
 from tkinter import messagebox
 
 from PIL import Image, ImageTk
-
-# todo: add card border as background to the text box
-# todo: remove "deck is empty" messages
-# todo: add remaining icons
 
 
 class CardDrawingApp:
@@ -19,6 +14,12 @@ class CardDrawingApp:
     icons_dir = images_dir / "icons"
     banner_dir = images_dir
     card_background_dir = images_dir
+
+    canvas_width = 700
+    canvas_height = 300
+    canvas_text_pos_x = 350
+    canvas_text_pos_y = 150
+    canvas_text_width = canvas_width - 100
 
     def __init__(self, master):
         self.master = master
@@ -51,53 +52,66 @@ class CardDrawingApp:
 
         banner_path = self.banner_dir / "banner.png"
         if banner_path.exists():
-            # Open the image
             img = Image.open(banner_path)
-            # Get the original dimensions
             original_width, original_height = img.size
-            # Desired width
-            banner_img_desired_width = 700  # Replace with your desired width
-            # Calculate the new height to maintain the aspect ratio
+            banner_img_desired_width = 700
             aspect_ratio = original_height / original_width
             new_height = int(banner_img_desired_width * aspect_ratio)
-            # Resize the image
             resized_img = img.resize((banner_img_desired_width, new_height))
-            # Convert to PhotoImage and save
             self.banner = ImageTk.PhotoImage(resized_img)
         else:
             self.banner = None
 
+        # Load card background image
+        bg_path = self.card_background_dir / "card_background.png"
+        if bg_path.exists():
+            self.bg_image = Image.open(bg_path)
+        else:
+            self.bg_image = None
+
     def create_widgets(self):
-        # Main frame
         main_frame = tk.Frame(self.master)
         main_frame.pack(expand=True, fill="both", padx=20, pady=20)
 
-        # Left column (Holidays and Surprise)
         left_frame = tk.Frame(main_frame)
         left_frame.grid(row=0, column=0, sticky="ns")
         self.create_category_frame(left_frame, "holidays")
         self.create_category_frame(left_frame, "surprise")
 
-        # Center column (Banner and Card display)
         center_frame = tk.Frame(main_frame)
         center_frame.grid(row=0, column=1, padx=20)
 
-        # Banner
         if self.banner:
             banner_label = tk.Label(center_frame, image=self.banner)
             banner_label.grid(row=0, column=0, pady=10)
 
-        self.result_text = tk.Text(
-            center_frame, wrap=tk.WORD, width=40, height=10, font=("Arial", 16)
+        self.result_canvas = tk.Canvas(
+            center_frame,
+            width=self.canvas_width,
+            height=self.canvas_height,
+            highlightthickness=0,
         )
-        self.result_text.grid(row=1, column=0)
+        self.result_canvas.grid(row=1, column=0)
 
-        # Right column (Class)
+        if self.bg_image:
+            self.bg_photo = ImageTk.PhotoImage(
+                self.bg_image.resize((self.canvas_width, self.canvas_height))
+            )
+            self.result_canvas.create_image(0, 0, anchor="nw", image=self.bg_photo)
+
+        self.result_text = self.result_canvas.create_text(
+            self.canvas_text_pos_x,
+            self.canvas_text_pos_y,
+            text="",
+            width=self.canvas_text_width,
+            font=("Arial", 16),
+            anchor="center",
+        )
+
         right_frame = tk.Frame(main_frame)
         right_frame.grid(row=0, column=2, sticky="ns")
         self.create_category_frame(right_frame, "class")
 
-        # Configure grid
         main_frame.grid_columnconfigure(1, weight=1)
         main_frame.grid_rowconfigure(0, weight=1)
         center_frame.grid_columnconfigure(0, weight=1)
@@ -130,23 +144,16 @@ class CardDrawingApp:
         for category, types in self.cards.items():
             if card_type in types and types[card_type]:
                 card = random.choice(types[card_type])
-                self.result_text.config(state=tk.NORMAL)
-                self.result_text.delete(1.0, tk.END)
-                self.result_text.insert(
-                    tk.END,
-                    f"{category.capitalize()} - {card_type.capitalize()} card:\n\n{card}",
+                self.result_canvas.itemconfig(
+                    self.result_text,
+                    text=f"{category.capitalize()} - {card_type.capitalize()} card:\n\n{card}",
                 )
-                self.result_text.config(state=tk.DISABLED)
                 return
-        self.result_text.delete(1.0, tk.END)
-        self.result_text.insert(tk.END, f"No cards available in {card_type} deck.")
-
 
 def main():
     root = tk.Tk()
     app = CardDrawingApp(root)
     root.mainloop()
-
 
 if __name__ == "__main__":
     main()
