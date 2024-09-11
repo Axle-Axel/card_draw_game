@@ -11,13 +11,15 @@ from PIL import Image, ImageTk
 # todo: remove "deck is empty" messages
 # todo: add remaining icons
 
-main_dir = Path(__file__).parent
-cards_dir = main_dir / "cards"
-icons_dir = main_dir / "icons"
-banner_dir = main_dir
-
 
 class CardDrawingApp:
+    main_dir = Path(__file__).parent
+    cards_dir = main_dir
+    images_dir = main_dir / "images"
+    icons_dir = images_dir / "icons"
+    banner_dir = images_dir
+    card_background_dir = images_dir
+
     def __init__(self, master):
         self.master = master
         self.master.title("Card Drawing Game")
@@ -29,7 +31,7 @@ class CardDrawingApp:
 
     def load_cards(self):
         try:
-            with open(cards_dir / "cards.json", "r") as file:
+            with open(self.cards_dir / "cards.json", "r") as file:
                 return json.load(file)
         except FileNotFoundError:
             messagebox.showerror("Error", "cards.json file not found!")
@@ -39,7 +41,7 @@ class CardDrawingApp:
         self.icons = {}
         for category in self.cards:
             for card_type in self.cards[category]:
-                icon_path = icons_dir / f"{card_type.lower().replace(' ', '_')}.png"
+                icon_path = self.icons_dir / f"{card_type.lower().replace(' ', '_')}.png"
                 if icon_path.exists():
                     self.icons[card_type] = ImageTk.PhotoImage(
                         Image.open(icon_path).resize((48, 48))
@@ -47,7 +49,7 @@ class CardDrawingApp:
                 else:
                     self.icons[card_type] = None
 
-        banner_path = banner_dir / "banner.png"
+        banner_path = self.banner_dir / "banner.png"
         if banner_path.exists():
             # Open the image
             img = Image.open(banner_path)
