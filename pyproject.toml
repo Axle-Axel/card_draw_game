@@ -8,9 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 pillow = "^10.4.0"
+ipython = "^8.27.0"
 
 [tool.poetry.scripts]
 play = "card_draw.card_draw:main"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
