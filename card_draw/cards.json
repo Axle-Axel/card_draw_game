@@ -1,5 +1,48 @@
 {
     "holidays": {
+        "spring break": [
+            "You went to Tijuana to party and were the king/queen of the beach. Everyone else takes 1 sip and bows in respect.",
+            "You went to Tijuana to party and got alcohol poisoning. Give away your drink to someone else, you should chill.",
+            "You went on a tropical vacation. Everyone else takes 1 sip for not being as lucky.",
+            "You had a wild beach party. Give out 3 sips to the best party animals.",
+            "You got a sunburn. Take 2 sips to cool down.",
+            "You got food poisoning from street food. Take 3 sips to recover.",
+            "You went on a spring cleaning spree. Everyone else takes 1 sip for not helping.",
+            "You attended a music festival. Give out 2 sips to the best dancers.",
+            "You went hiking and found a hidden waterfall. Everyone else takes 1 sip for not being adventurous.",
+            "You got caught in a sudden rainstorm. Take 3 sips to dry off.",
+            "You took a spontaneous road trip. Give out 2 sips to the best road trip companions.",
+            "You went scuba diving and saw a shark. Take 2 sips to calm your nerves.",
+            "You got stuck in an airport overnight. Take 3 sips to pass the time.",
+            "You went to a wild foam party. Give out 2 sips to the best partiers.",
+            "You got drenched during a spring storm. Take 2 sips to dry off.",
+            "You spent spring break volunteering. Everyone else takes 1 sip for not being as charitable.",
+            "You went on a booze cruise and lost your drink. Take 2 sips to make up for it.",
+            "You tried paddleboarding and fell into the water. Take 3 sips for the splash.",
+            "You attended a spring break costume party. Give out 2 sips to the best costumes.",
+            "You went to an outdoor concert and danced in the rain. Take 3 sips for the dedication."
+        ],
+        "summer break": [
+            "You went to Thailand with your family and everyone is jealous. Give out 3 sips.",
+            "You stayed home all summer playing video games and not getting any sun. Take 2 sips against the sadness.",
+            "You went to a music festival and danced all night. Give out 2 sips to the best dancers.",
+            "You got sunburned at the beach. Take 3 sips to cool down.",
+            "You learned to surf. Everyone else takes 1 sip for not being as cool.",
+            "You got lost on a hiking trip. Take 2 sips to find your way back.",
+            "You had a BBQ party. Give out 3 sips to the best grill masters.",
+            "You went camping and got scared by a bear. Take 2 sips to calm your nerves.",
+            "You took a road trip with friends. Everyone else takes 1 sip for not being invited.",
+            "You got sunburned while napping at the beach. Take 2 sips and apply sunscreen.",
+            "You had a summer fling. Give out 3 sips to celebrate the romance.",
+            "You missed your flight home from vacation. Take 3 sips to cope with the stress.",
+            "You tried to learn a new language but failed. Take 2 sips for the effort.",
+            "You went to a water park and lost your swimsuit on a slide. Take 3 sips to hide the embarrassment.",
+            "You hosted a bonfire and roasted marshmallows. Give out 2 sips to the best marshmallow roasters.",
+            "You got seasick on a boat trip. Take 3 sips to settle your stomach.",
+            "You took surfing lessons and totally wiped out. Take 2 sips for the crash.",
+            "You went to an amusement park and screamed on every ride. Give out 2 sips to fellow thrill-seekers.",
+            "You joined a beach volleyball game. Everyone else takes 1 sip for not joining the fun."
+        ],
         "winter break": [
             "You built an impressive snowman. Your neighbors are jealous and have to take 1 sip each.",
             "You broke your leg skiing. Take a shot and skip the next turn.",
@@ -13,30 +56,17 @@
             "You went sledding and had a blast. Everyone else takes 1 sip for not joining.",
             "You had a holiday movie marathon. Take 2 sips for each movie you watched.",
             "You made a snow angel. Give out 2 sips to the people who love snow.",
-            "You got a cold from being outside too long. Take 3 sips to feel better."
-        ],
-        "summer break": [
-            "You went to Thailand with your family and everyone is jealous. Give out 3 sips.",
-            "You stayed home all summer playing video games and not getting any sun. Take 2 sips against the sadness.",
-            "You went to a music festival and danced all night. Give out 2 sips to the best dancers.",
-            "You got sunburned at the beach. Take 3 sips to cool down.",
-            "You learned to surf. Everyone else takes 1 sip for not being as cool.",
-            "You got lost on a hiking trip. Take 2 sips to find your way back.",
-            "You had a BBQ party. Give out 3 sips to the best grill masters.",
-            "You went camping and got scared by a bear. Take 2 sips to calm your nerves.",
-            "You took a road trip with friends. Everyone else takes 1 sip for not being invited."
-        ],
-        "spring break": [
-            "You went to Tijuana to party and were the king/queen of the beach. Everyone else takes 1 sip and bows in respect.",
-            "You went to Tijuana to party and got alcohol poisoning. Give away your drink to someone else, you should chill.",
-            "You went on a tropical vacation. Everyone else takes 1 sip for not being as lucky.",
-            "You had a wild beach party. Give out 3 sips to the best party animals.",
-            "You got a sunburn. Take 2 sips to cool down.",
-            "You got food poisoning from street food. Take 3 sips to recover.",
-            "You went on a spring cleaning spree. Everyone else takes 1 sip for not helping.",
-            "You attended a music festival. Give out 2 sips to the best dancers.",
-            "You went hiking and found a hidden waterfall. Everyone else takes 1 sip for not being adventurous.",
-            "You got caught in a sudden rainstorm. Take 3 sips to dry off."
+            "You got a cold from being outside too long. Take 3 sips to feel better.",
+            "You built a snow fort, but it collapsed. Take 2 sips for the effort.",
+            "You got into a snowball fight and accidentally hit a passerby. Take 3 sips for your terrible aim.",
+            "You drank too much eggnog at the holiday party. Take 2 sips to sober up.",
+            "You had a family holiday feast and ate way too much. Take 1 sip for each plate you had.",
+            "You spent the entire break binge-watching shows. Take 3 sips for being a couch potato.",
+            "You forgot to buy holiday gifts until the last minute. Take 3 sips for your poor planning.",
+            "You kissed someone under the mistletoe. Give out 2 sips to spread the holiday cheer.",
+            "You went snowboarding for the first time and fell a lot. Take 2 sips for the bruises.",
+            "You attended a New Year's party and stayed up all night. Take 3 sips to recover from the hangover.",
+            "You drank mulled wine and got tipsy. Give out 2 sips to share the warmth."
         ],
         "fall break": [
             "You caught a cold and had to stay home. Lame. Take a shot (of cold medicine).",
@@ -51,7 +81,17 @@
             "You went to a football game. Everyone else takes 1 sip for not being a fan.",
             "You had a cozy movie night. Take 2 sips for each movie you watched.",
             "You went on a scenic drive to see the fall colors. Give out 2 sips to the people who love nature.",
-            "You got caught in a rainstorm without an umbrella. Take 3 sips to dry off."
+            "You got caught in a rainstorm without an umbrella. Take 3 sips to dry off.",
+            "You went on a hayride and fell off. Take 2 sips for the rough landing.",
+            "You went apple bobbing and failed miserably. Take 3 sips for your lack of skill.",
+            "You made a scarecrow but it looks terrifying. Give out 2 sips to calm everyone's nerves.",
+            "You went hiking and got lost in the woods. Take 3 sips to find your way back.",
+            "You went to a haunted house and screamed the whole time. Take 2 sips for your bravery.",
+            "You hosted a fall bonfire and roasted marshmallows. Give out 2 sips to the people who love s'mores.",
+            "You had a cozy sweater day. Everyone else takes 1 sip for not being as cozy.",
+            "You tried to jump in a pile of leaves but missed. Take 2 sips for your poor aim.",
+            "You made homemade apple cider. Give out 3 sips to the people who love fall drinks.",
+            "You went to a pumpkin patch and picked the biggest pumpkin. Everyone else takes 1 sip for not being as strong."
         ]
     },
     "class": {
@@ -61,7 +101,17 @@
             "What is supercompensation?",
             "What is the main muscle used in a bench press?",
             "Touch your toes and hold for 10 seconds",
-            "Name a sport that uses a racket"
+            "Name a sport that uses a racket",
+            "Hold a plank for 10 seconds.",
+            "Do 5 squats, then take 1 sip to recover.",
+            "What muscle group is primarily worked during a pull-up?",
+            "How many players are on a standard soccer team?",
+            "Do 10 high knees in place.",
+            "Name a sport that uses a ball.",
+            "What is the name of the exercise where you lift a barbell from the ground to overhead in one movement?",
+            "How many laps around a standard track make up a mile?",
+            "Do 15 seconds of shadow boxing.",
+            "What is the primary muscle used during a squat?"
         ],
         "science": [
             "What is the powerhouse of the cell?",
@@ -76,7 +126,15 @@
             "What is the process by which plants make their food?",
             "What is the largest organ in the human body?",
             "What is the center of an atom called?",
-            "What is the most abundant element in the universe?"
+            "What is the most abundant element in the universe?",
+            "What is the chemical symbol for water?",
+            "How many planets are in our solar system?",
+            "What gas do humans exhale?",
+            "What is the largest planet in our solar system?",
+            "What element is represented by the symbol 'O'?",
+            "How many chambers does the human heart have?",
+            "What type of animal can live both on land and in water?",
+            "What part of the plant conducts photosynthesis?"
         ],
         "language": [
             "Say 'Hi' in three different languages.",
@@ -91,7 +149,18 @@
             "What is the meaning of the word 'ubiquitous'?",
             "What is the root word of 'unhappiness'?",
             "What is the opposite of 'increase'?",
-            "What is the meaning of the word 'serendipity'?"
+            "What is the meaning of the word 'serendipity'?",
+            "Name a verb that starts with the letter 'D'.",
+            "What is a synonym for 'smart'?",
+            "Translate 'Thank you' to French.",
+            "What is the term for a word that sounds like what it describes, like 'buzz'?",
+            "What is the literary device where two opposite ideas are joined together, like 'jumbo shrimp'?",
+            "What is the difference between 'affect' and 'effect'?",
+            "What is a palindrome, and give an example of one.",
+            "What is a homophone for the word 'bear'?",
+            "What is the meaning of the word 'ephemeral'?",
+            "What is the superlative form of the word 'bad'?",
+            "What is the plural of 'cactus'?"
         ],
         "math": [
             "What is the square root of 81?",
@@ -104,7 +173,17 @@
             "What is the formula for the area of a circle?",
             "What is the square root of 64?",
             "What is 15% of 200?",
-            "What is the perimeter of a rectangle with sides 5 and 10?"
+            "What is the perimeter of a rectangle with sides 5 and 10?",
+            "What is 9 times 9?",
+            "What is the square root of 144?",
+            "What is 25% of 80?",
+            "What is the next prime number after 11?",
+            "What is 8 plus 15?",
+            "What is the binary representation of the number 5?",
+            "What is the formula for the circumference of a circle?",
+            "What is 16 divided by 4?",
+            "What is 2 to the power of 5?",
+            "If you have 3 apples and someone gives you 5 more, how many apples do you have?"
         ],
         "geography": [
             "Name 3 capital cities outside Europe.",
@@ -118,7 +197,17 @@
             "What is the highest mountain in the world?",
             "What ocean is on the west coast of the United States?",
             "What is the capital of Canada?",
-            "Which country has the most population?"
+            "Which country has the most population?",
+            "What is the capital of Brazil?",
+            "Name a country in Africa.",
+            "What is the largest ocean in the world?",
+            "Which country is famous for the pyramids?",
+            "What is the capital of Italy?",
+            "Which continent is Russia part of?",
+            "Name a country that starts with the letter 'B'.",
+            "What is the capital of South Korea?",
+            "Which ocean is the deepest?",
+            "What is the capital of Spain?"
         ],
         "history": [
             "Name three ancient civilizations.",
@@ -130,7 +219,16 @@
             "What year did the first person walk on the moon?",
             "In which year did World War II end?",
             "Who was the first female Prime Minister of the UK?",
-            "What was the name of the ancient trade route that connected the East and West?"
+            "What was the name of the ancient trade route that connected the East and West?",
+            "Who was the first man to walk on the moon?",
+            "What year did the Berlin Wall fall?",
+            "Which country was once ruled by Julius Caesar?",
+            "Name a historical event that took place in 1776.",
+            "Who was the leader of the Soviet Union during World War II?",
+            "What empire was Genghis Khan the leader of?",
+            "Who was the second President of the United States?",
+            "In which country did the Industrial Revolution begin?",
+            "What was the first human civilization to develop writing?"
         ]
     },
     "surprise": {
@@ -147,7 +245,17 @@
             "You aced a surprise test! Give out 2 sips",
             "You got a surprise visit from your parents. Everyone takes a drink in your honor",
             "You found a lost puppy on the way to school. Everyone helps you look for its owner, take a group drink",
-            "You got a scholarship! Move forward 2 spaces and give out 1 sip"
+            "You got a scholarship! Move forward 2 spaces and give out 1 sip",
+            "You spilled soda on your notebook! Skip your next class to clean up and take 1 sip.",
+            "You got locked in a bathroom stall. Move back 3 spaces and take 2 sips.",
+            "You found a secret passage in the school. Move forward 3 spaces.",
+            "You were caught skipping school! Go back to the previous class and take 2 sips.",
+            "You became the class president! Swap places with any player on the board.",
+            "You found an extra-credit project. Skip your next drink and move ahead 1 space.",
+            "You got caught cheating! Move back 4 spaces and lose your next turn.",
+            "You stayed up all night cramming. Skip your next class to sleep and take a shot.",
+            "Your crush smiled at you! Move ahead 2 spaces and give out 1 sip.",
+            "You got a surprise gift from a secret admirer! Move forward 1 space and give 1 sip to someone."
         ],
         "breaks": [
             "Someone stole your lunch money! The player across from you gets to take a sip of your drink.",
@@ -161,7 +269,17 @@
             "You traded snacks with a friend. Swap drinks with another player for one turn",
             "You played hopscotch. Hop on one foot for 10 seconds or take a sip",
             "You got caught chewing gum in class. Spit it out and take a sip",
-            "You played tag. Tag another player and they take a sip"
+            "You played tag. Tag another player and they take a sip",
+            "You got caught playing video games in class! You can only use one hand for the next turn or take 2 sips.",
+            "You climbed the monkey bars but fell off. Sit out the next round and take 1 sip.",
+            "You traded your sandwich for chips! Pick another player's drink and take a sip from it.",
+            "You got caught daydreaming in class! Skip your next class and take 2 sips.",
+            "You started a food fight! Everyone must take 1 sip.",
+            "You were sent to the principal's office for fighting. Move back 2 spaces and take 3 sips.",
+            "You played dodgeball during recess. Dodge a pretend ball or take 1 sip.",
+            "You found a cool hiding spot during hide-and-seek. Skip your next class and relax.",
+            "You got caught reading comic books during class. Trade drinks with another player.",
+            "You had a staring contest with another player during recess. The loser takes 2 sips."
         ],
         "after school activities": [
             "You joined the chess club, you nerd. Challenge another player to rock-paper-scissors and the loser drinks.",
@@ -171,7 +289,20 @@
             "You joined the basketball team. Shoot a paper ball into a trash can. If you miss, take a drink",
             "You joined the track team. Race another player to the nearest door and back. Loser takes a drink",
             "You joined the photography club. Take a funny selfie with another player and you both take 1 sip.",
-            "You joined the music club. Hum a tune and have others guess it. The first correct guesser gives out 1 sip"
+            "You joined the music club. Hum a tune and have others guess it. The first correct guesser gives out 1 sip",
+            "You joined the debate team. Argue why your favorite drink is the best for 10 seconds, or take 2 sips.",
+            "You joined the drama club! Act out a scene from a movie or take a drink.",
+            "You went to the skate park and wiped out. Take 2 sips to recover.",
+            "You joined the school play. Recite a line from a famous movie or play or take 1 sip.",
+            "You helped organize a charity event. Give 1 sip to everyone for being such a good person.",
+            "You went to a karaoke night. Sing a line from your favorite song or take a shot.",
+            "You participated in a bake sale. Give out 2 sips to the biggest sweet tooth.",
+            "You went to an after-school movie night. Name a movie you've recently watched, or take 2 sips.",
+            "You joined the photography club. Snap an imaginary picture of another player. They must strike a pose or take 2 sips.",
+            "You started a gaming club. Challenge another player to a thumb war. The loser takes a drink.",
+            "You joined the science club. Conduct a 'human experiment' by having another player mix drinks for you. Take 1 sip from the mix.",
+            "You attended a talent show. Perform a quick dance move or take 1 sip.",
+            "You joined the environmental club. Name three things you can recycle, or take 3 sips."
         ]
     }
 }
